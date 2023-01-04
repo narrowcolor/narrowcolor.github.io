@@ -1,0 +1,161 @@
+*{
+   margin:0;
+   padding:0;
+ }
+ 
+ body{
+  color:#213445;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+ }
+ #header{
+  padding:2%;
+  font-size:150%;
+  font-weight:500;
+  top:0;
+  display:flex;
+  justify-content:space-between;
+  position:sticky;
+  color:#213445;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1); 
+  background:white;
+ }
+ 
+ #open:hover,#open:focus{
+  color:black;;
+ }
+ #h-content{
+   background:white;
+   margin:2%;
+   border:thin solid rgba(1,1,1,0.2);
+   padding:2%;
+   width:100px;
+   border-radius:3px;
+   display:none;
+ }
+ 
+ #h-content a{
+   color:#213445;
+   text-decoration:none;
+ }
+ 
+ #intro{
+  height:250px;
+  margin:8%;
+ }
+ 
+ #intro h1{
+   font-size:250%;
+ }
+ 
+ #intro,#intro-text{
+  margin-top:80px;
+ }
+ 
+ 
+
+ 
+ #block{
+ width:100px;
+ hwight:100px;
+ margin:auto;
+ width:200px;
+ background:white;
+ border-radius:2px;
+ box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+ }
+ 
+ #colorCode{
+ font-size:140%;
+ text-align:center;
+ }
+ 
+ #btn{
+ font-size:120%;
+ text-align:center;
+ margin:auto;
+ display:block;
+ border:none;
+ background:black;
+ color:white;
+ border-radius:2px;
+ width:140px;
+ font-weight:600;
+ padding:2%;
+ }
+ 
+ 
+ @media only screen and (min-width: 480px){
+ {
+ transform:translate(0,100%);
+ }
+ 
+ }
+ 
+ /*
+ .color-box {
+       width: 25%;
+       height: 50px;
+       cursor: pointer;
+       margin:0%;
+     }
+     
+     */
+     
+ .color-box {
+ display: inline-block;
+ height: 80px;
+ width:80px;
+ cursor:pointer;
+ border-radius:5px;
+ border:thin solid white;
+ /*display:flex;
+ flex-wrap:wrap;*/
+ }
+
+ 
+ .btn1 a{
+   background:#213445;
+   color:white;
+   text-decoration:none;
+   padding:5px;
+   border-radius:2px;
+ }
+ 
+ #start{
+   margin:5%;
+   border-top:thin solid grey;
+   border-bottom:thin solid grey;
+ }
+ 
+ 
+ 
+ h2{
+  text-align:center;
+ }
+ 
+ #t1,#t2{
+  text-align:center;
+ }
+ 
+ #colors{
+  margin:5%;
+ }
+ 
+ #colors h3{
+   margin-top:50px;
+ }
+ 
+ footer{
+  background:rgb(245, 245, 245);
+  padding:5%;
+ }
+ 
+ footer a{
+  text-decoration:none;
+  color:#213445;
+ }
+ 
+ footer a:hover, a:focus{
+  text-decoration:underline;
+ }
