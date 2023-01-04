@@ -1,12 +1,299 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>NarrowColor</title>
+
+<meta name="title" content="NarrowColor - Explore a World of Colors"/>
+<meta name="description" content="NarrowColor helps you to generate or choose best color combinations for your designs."/>
+<meta name="keywords" content="color,color palette, designs, user interface, palette, color scheme, NarrowColor, colorhunt,artists tool"/>
+<meta name="robots" content="index,follow"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="language" content="English"/>
+<meta name="author" content="Ganesh Kumar"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<!-- Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Font 1 -->
+<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@479;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+
 </head>
 <body>
+ 
+ <main>
+   
+ <div id="header">
+  <span id="open" onclick="openH()">
+  	<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
+  	<path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+  	</svg>
+  </span>
+  <span>NarrowColor</span>
+ </div>
 
- <p>Narrow Color</p>
+<div id="h-content">
+ <a href="https://narrowcolor.github.io" >HOME</a><br><br>
+ <a href="https://narrowcolor.github.io/products.html" >PRODUCTS</a><br><br>
+ <a href="https://narrowcolor.github.io/blog.html" >BLOG</a><br><br>
+ <a href="https://narrowcolor.github.io/contact.html" >CONTACT</a><br><br>
+ <a href="https://narrowcolor.github.io/about.html" >ABOUT</a>
+</div>
+
+<!-- Home -->
+<div id="intro">
+  <div id="intro-text">
+  <h1>NarrowColor</h1><br>
+  <p><b>Discover the Perfect Color Palette for Your Designs</b></p><br>
+  <p>Find the perfect color scheme for your website, branding, or user interface with NarrowColor. Our color inspiration tool makes it easy to generate and explore a wide range of color combinations.</p>
+  </div>
+  <br>
+  <span class="btn1">
+      <a href="#start" >START</a>
+  </span>
+</div>
+ <br><br>
+
+<section id="start">
+<br><br>
+   <h2>RANDOM COLOR GENERATOR</h2>
+ <br>
+ <div id="block">
+  <br><br><br><br><br><br><br>
+  <div style="background:white;">
+  <p id="colorCode">#fff</p><br>
+  <button onclick="generat()" id="btn">GENERATE</button>
+  <br>
+ </div>
+ 
+ </div>
+ <br><br>
+ </section>
+ <br><br>
+ 
+ 
+ <section id="plate">
+ 
+ <h2>COLOR BOX</h2>
+ <br>
+ <p id="t1">CLICK TO COPY COLOR CODE</p>
+ <br>
+ <p id="t2">Color code type:
+   <select id="color-code-type">
+  <option value="rgb">RGB</option>
+  <option value="hex">HEX</option>
+  <option value="hsl">HSL</option>
+   </select>
+ </p>
+ 
+ 
+ <!--<div style="display: flex; flex-wrap: wrap;">-->
+
+ <div id="colors">
+   
+    
+    <h3>WHITE</h3>
+    
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: White;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: Snow;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: HoneyDew;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: MintCream;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: Azure;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: AliceBlue;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: GhostWhite;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: WhiteSmoke;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: Seashell;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: Beige;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: OldLace;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" onclick="copyColorCode(this)" style="background-color: FloralWhite;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: Ivory;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: AntiqueWhite;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: Linen;"></div>
+    <div class="color-box" onclick="copyColorCode(this)" style="background-color: LavenderBlush;"></div>
+    
+ 	
+ 	<h3>PINK</h3>
+ 	<div class="color-box" style="background-color: DeepPink;" onclick="copyColorCode(this)"></div>
+ 	<div class="color-box" style="background-color: HotPink;" onclick="copyColorCode(this)"></div>
+ 	<div class="color-box" style="background-color: LightPink;" onclick="copyColorCode(this)"></div>
+ 	<div class="color-box" style="background-color: MediumVioletRed;" onclick="copyColorCode(this)"></div>
+ 	<div class="color-box" style="background-color: PaleVioletRed;" onclick="copyColorCode(this)"></div>
+ 	<div class="color-box" style="background-color: Pink;" onclick="copyColorCode(this)"></div>
+ 	<div class="color-box" style="background-color: Plum;" onclick="copyColorCode(this)"></div>
+ 	<div class="color-box" style="background-color: Violet;" onclick="copyColorCode(this)"></div>
+ 	
+ 	
+ 	<h3>RED</h3>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Crimson;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkRed;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: FireBrick;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: IndianRed;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightCoral;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightSalmon;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightPink;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Pink;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Salmon;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Tomato;"></div>
+ 	
+ 
+ 	<h3>YELLOW</h3>
+ 	
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Gold;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: GoldenRod;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkGoldenRod;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Khaki;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: PaleGoldenRod;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LemonChiffon;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightGoldenRodYellow;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightYellow;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Cornsilk;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Yellow;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: PapayaWhip;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Moccasin;"></div>
+ 	
+ 	
+ 	
+ 	<h3>PURPLE</h3>
+ 	
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: BlueViolet;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkMagenta;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkViolet;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Indigo;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: MediumOrchid;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: MediumPurple;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Orchid;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: PaleVioletRed;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Purple;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkSlateBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkOrchid;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkOrchid;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Magenta;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: MediumVioletRed;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Violet;"></div>
+ 
+ 	
+ 	<h3>GREEN</h3>
+ 	
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Chartreuse;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkOliveGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkSeaGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: ForestGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Green;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: GreenYellow;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LawnGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightSeaGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Lime;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LimeGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: MediumAquaMarine;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: MediumSeaGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Olive;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: OliveDrab;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: PaleGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SeaGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SpringGreen;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: YellowGreen;"></div>
+ 	
+ 	
+ 	<h3>ORANGE</h3>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Coral;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkOrange;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkSalmon;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightSalmon;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightCoral;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Orange;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: OrangeRed;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: PeachPuff;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Peru;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Salmon;"></div>
+ 	
+ 	
+ 	<h3>BLUE</h3>
+ 	<div class="color-box"onclick="copyColorCode(this)" style="background-color: Blue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: BlueViolet;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: CadetBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: CornflowerBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkTurquoise;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DeepSkyBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightSteelBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: MediumBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: MidnightBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Navy;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: PowderBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SkyBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SlateBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SteelBlue;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: RoyalBlue;"></div>
+ 	
+ 	
+ 	
+ 	<h3>BROWN</h3>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Brown;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Chocolate;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Peru;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Maroon;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SaddleBrown;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Sienna;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Tan;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Wheat;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: RosyBrown;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SandyBrown;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: GoldenRod;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkGoldenRod;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Peru;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SaddleBrown;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Sienna;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Tan;"></div>
+ 	
+
+ 	
+ 	<h3>GRAY</h3>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightGray;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Silver;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkGray;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Gray;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DimGray;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Gainsboro;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: WhiteSmoke;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: LightSlateGray;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: SlateGray;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: DarkSlateGray;"></div>
+ 	<div class="color-box" onclick="copyColorCode(this)" style="background-color: Black;"></div>
+ 	
+ </div>
  
 
+ 
+</section>
+</main>
+
+<br>
+
+<footer>
+  <br>
+  <h3>NarrowColor</h3><br>
+  <p>helps you to generate or choose
+  best color combinations for your designs.</p>
+  <br>
+  <p><b>PAGES</b></p><br>
+  <p>
+  <a href="https://narrowcolor.github.io/about.html" >About</a><br>
+  <a href="https://narrowcolor.github.io/contact.html" >Contact Us</a><br>
+  <a href="https://narrowcolor.github.io/privacy-policy.html" >Privacy Policy</a><br>
+  <a href="https://narrowcolor.github.io/disclaimer.html" >Disclaimer</a>
+  </p>
+  <br>
+  <p>Powered By ❤️</p>
+  <p>© NarrowColor</p>
+
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
