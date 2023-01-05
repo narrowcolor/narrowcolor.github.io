@@ -1,0 +1,49 @@
+*{
+   margin:0;
+   padding:0;
+ }
+ 
+ body{
+  color:#213445;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+ }
+ 
+ #logo img{
+  max-width:50px;
+  height:auto;
+ }
+ 
+ main,ol{
+  margin:5%;
+  
+ }
+ 
+ main p,ol,ul,li,h2,h3,h4,h5,blockquote{
+  line-height:230%;
+ }
+ 
+ blockquote{
+  border-left:medium solid grey;
+  padding:3%;
+ }
+ 
+ main img{
+  max-width:100%;
+  height:auto;
+  border-radius:5px;
+ } 
+ 
+ footer{
+  background:rgb(245, 245, 245);
+  padding:5%;
+ }
+ 
+ footer a{
+  text-decoration:none;
+  color:#213445;
+ }
+ 
+ footer a:hover, a:focus{
+  text-decoration:underline;
+ }
